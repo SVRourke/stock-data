@@ -6,12 +6,14 @@
 # BASE URL: https://finnhub.io/api/v1/stock/candle?
 # SYMBOL: symbol=TSLA&
 # GRANULARITY: resolution=1&
-# START DATE: from=1572651390&
+# START DATE: from=1572651390& unix timestamp
 # END DATE: to=1572910590&
 # API_KEY token=TOKEN
 
-from requests import get
-from credentials.py import api_key
 
-print api_key
+# from requests import get
+# from credentials.py import api_key
+
+# print(api_key)
+
 
